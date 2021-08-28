@@ -21,23 +21,29 @@ Source: "C:\gtk-build\gtk\x64\release\bin\gdk-pixbuf-query-loaders.exe"; DestDir
 Source: "C:\gtk-build\gtk\x64\release\bin\gdk-pixbuf-query-loaders.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gdk-pixbuf-thumbnailer.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gdk-pixbuf-thumbnailer.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gdk_pixbuf-2.0-0.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gdk_pixbuf-2.0-0.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\gdk-pixbuf-2.0\*"; DestDir: "{app}\include\gdk-pixbuf-2.0"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\*"; DestDir: "{app}\lib\gdk-pixbuf-2.0"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\lib\gdk_pixbuf-2.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gdk-pixbuf-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\libexec\installed-tests\gdk-pixbuf\*"; DestDir: "{app}\libexec\installed-tests\gdk-pixbuf"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\share\installed-tests\gdk-pixbuf\*"; DestDir: "{app}\share\installed-tests\gdk-pixbuf"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\share\locale\af\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\af\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\ang\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ang\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\ar\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ar\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\as\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\as\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\ast\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ast\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\az\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\az\LC_MESSAGES"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\locale\be\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\be\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\be@latin\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\be@latin\LC_MESSAGES"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\locale\be\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\be\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\bg\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\bg\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\bn\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\bn\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\bn_IN\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\bn_IN\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\br\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\br\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\bs\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\bs\LC_MESSAGES"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\locale\ca\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ca\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\ca@valencia\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ca@valencia\LC_MESSAGES"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\locale\ca\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ca\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\crh\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\crh\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\cs\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\cs\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\csb\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\csb\LC_MESSAGES"; Flags: ignoreversion
@@ -107,9 +113,9 @@ Source: "C:\gtk-build\gtk\x64\release\share\locale\si\LC_MESSAGES\gdk-pixbuf.mo"
 Source: "C:\gtk-build\gtk\x64\release\share\locale\sk\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\sk\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\sl\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\sl\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\sq\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\sq\LC_MESSAGES"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\locale\sr\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\sr\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\sr@ije\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\sr@ije\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\sr@latin\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\sr@latin\LC_MESSAGES"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\locale\sr\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\sr\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\sv\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\sv\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\ta\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ta\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\te\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\te\LC_MESSAGES"; Flags: ignoreversion
@@ -120,8 +126,8 @@ Source: "C:\gtk-build\gtk\x64\release\share\locale\tr\LC_MESSAGES\gdk-pixbuf.mo"
 Source: "C:\gtk-build\gtk\x64\release\share\locale\tt\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\tt\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\ug\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ug\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\uk\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\uk\LC_MESSAGES"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\locale\uz\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\uz\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\uz@cyrillic\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\uz@cyrillic\LC_MESSAGES"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\locale\uz\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\uz\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\vi\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\vi\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\wa\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\wa\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\xh\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\xh\LC_MESSAGES"; Flags: ignoreversion
