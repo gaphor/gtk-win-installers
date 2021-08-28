@@ -13,13 +13,12 @@
 AppId={{947630D5-EF91-4C6B-9E25-5A93161E48F8}
 
 [Files]
-Source: "C:\gtk-build\gtk\x64\release\bin\libpng16.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\bin\png-fix-itxt.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\include\libpng16\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\gtk-build\gtk\x64\release\include\png.h"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\lib\libpng16.lib"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\lib\libpng16_static.lib"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\lib\libpng\libpng16-relwithdebinfo.cmake"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\lib\libpng\libpng16.cmake"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng.pc"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng16.pc"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\libpng16.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\png-fix-itxt.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\libpng16\*"; DestDir: "{app}\include\libpng16"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\include\png.h"; DestDir: "{app}\include"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\libpng16.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\libpng16_static.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\libpng\*"; DestDir: "{app}\lib\libpng"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng16.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
