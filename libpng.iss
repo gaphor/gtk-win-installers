@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "libpng"
-#define MyAppVersion "1.6.37"
+#define MyAppVersion "1.6.37-1"
 #define MyAppURL "http://www.libpng.org/pub/png/libpng.html"
 
 #include "common.iss"

@@ -2,7 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "libepoxy"
-#define MyAppVersion "1.5.9"
+; Latest is 1.5.9
+#define MyAppVersion "1.5.5-1"
 #define MyAppURL "https://github.com/anholt/libepoxy"
 
 #include "common.iss"

@@ -2,7 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "freetype"
-#define MyAppVersion "2.10.4"
+; Actual freetype version is currently with a git snapshot
+#define MyAppVersion "2.10.4-1"
 #define MyAppURL "https://www.freetype.org"
 
 #include "common.iss"

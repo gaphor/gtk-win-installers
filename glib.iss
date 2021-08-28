@@ -2,7 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "glib"
-#define MyAppVersion "2.68.4"
+; Latest is 2.68.4
+#define MyAppVersion "2.68.1-1"
 #define MyAppURL "https://gitlab.gnome.org/GNOME/glib"
 
 #include "common.iss"

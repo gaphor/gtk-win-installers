@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "pixman"
-#define MyAppVersion "0.40.0"
+#define MyAppVersion "0.40.0-1"
 #define MyAppURL "https://cgit.freedesktop.org/pixman"
 
 #include "common.iss"

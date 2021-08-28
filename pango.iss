@@ -2,7 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "pango"
-#define MyAppVersion "1.48.9"
+; Latest is 1.48.9
+#define MyAppVersion "1.48.8-1"
 #define MyAppURL "https://www.pango.org"
 
 #include "common.iss"

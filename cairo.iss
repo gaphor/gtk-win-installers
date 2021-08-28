@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "cairo"
-#define MyAppVersion "1.17.4"
+#define MyAppVersion "1.16.0-1"
 #define MyAppURL "https://cairographics.org"
 
 #include "common.iss"

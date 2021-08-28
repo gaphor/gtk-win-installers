@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "gobject-introspection"
-#define MyAppVersion "1.68.0"
+#define MyAppVersion "1.68.0-1"
 #define MyAppURL "https://wiki.gnome.org/Projects/GObjectIntrospection"
 
 #include "common.iss"

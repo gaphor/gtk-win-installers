@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "gdk-pixbuf"
-#define MyAppVersion "2.42.6"
+#define MyAppVersion "2.42.6-1"
 #define MyAppURL "https://wiki.gnome.org/Projects/GdkPixbuf"
 
 #include "common.iss"
