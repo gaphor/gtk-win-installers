@@ -11,6 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{947630D5-EF91-4C6B-9E25-5A93161E48F8}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\libpng\LICENSE
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\libpng16.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -22,3 +23,4 @@ Source: "C:\gtk-build\gtk\x64\release\lib\libpng16_static.lib"; DestDir: "{app}\
 Source: "C:\gtk-build\gtk\x64\release\lib\libpng\*"; DestDir: "{app}\lib\libpng"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng16.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\libpng\LICENSE"; DestDir: "{app}\share\doc\libpng"; Flags: ignoreversion

@@ -11,9 +11,11 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{7A384FB4-E6E7-4BD4-8E58-A5929E1DC4A3}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\pygobject\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\include\pygobject-3.0\pygobject.h"; DestDir: "{app}\include\pygobject-3.0"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\pygobject-3.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\python\PyGObject-3.40.1-cp39-cp39-win_amd64.whl"; DestDir: "{app}\python"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\python\PyGObject-3.40.1-py3.9-win-amd64.egg"; DestDir: "{app}\python"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\pygobject\COPYING"; DestDir: "{app}\share\doc\pygobject"; Flags: ignoreversion

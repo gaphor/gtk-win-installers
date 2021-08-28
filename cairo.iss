@@ -11,6 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{988FED59-D0EF-4F47-B123-3BAFA2E7CFA4}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\cairo\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\cairo-gobject.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -27,3 +28,4 @@ Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\cairo-svg.pc"; DestDir: "{ap
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\cairo-win32.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\cairo.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\py3cairo.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\cairo\COPYING"; DestDir: "{app}\share\doc\cairo"; Flags: ignoreversion

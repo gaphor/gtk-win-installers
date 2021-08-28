@@ -12,6 +12,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{FE15AAC0-4E71-4FCB-BD2C-3F55625A23A0}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\libxml2\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\libxml2.dll"; DestDir: "{app}\bin"; Flags: ignoreversion

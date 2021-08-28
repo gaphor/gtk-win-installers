@@ -11,6 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{3CEECCDA-4B12-4C99-A403-5282C2F38420}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\gdk-pixbuf\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\gdk-pixbuf-csource.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -28,6 +29,7 @@ Source: "C:\gtk-build\gtk\x64\release\lib\gdk-pixbuf-2.0\*"; DestDir: "{app}\lib
 Source: "C:\gtk-build\gtk\x64\release\lib\gdk_pixbuf-2.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gdk-pixbuf-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\libexec\installed-tests\gdk-pixbuf\*"; DestDir: "{app}\libexec\installed-tests\gdk-pixbuf"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\share\doc\gdk-pixbuf\COPYING"; DestDir: "{app}\share\doc\gdk-pixbuf"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\installed-tests\gdk-pixbuf\*"; DestDir: "{app}\share\installed-tests\gdk-pixbuf"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\share\locale\af\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\af\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\ang\LC_MESSAGES\gdk-pixbuf.mo"; DestDir: "{app}\share\locale\ang\LC_MESSAGES"; Flags: ignoreversion

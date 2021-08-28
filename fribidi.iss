@@ -11,6 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{3CEC020F-E031-4776-BC7A-C5C9960060B5}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\fribidi\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\fribidi-0.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -20,3 +21,4 @@ Source: "C:\gtk-build\gtk\x64\release\bin\fribidi.pdb"; DestDir: "{app}\bin"; Fl
 Source: "C:\gtk-build\gtk\x64\release\include\fribidi\*"; DestDir: "{app}\include\fribidi"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\lib\fribidi.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\fribidi.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\fribidi\COPYING"; DestDir: "{app}\share\doc\fribidi"; Flags: ignoreversion

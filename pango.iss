@@ -12,6 +12,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{60D50EB1-4AB0-4AFC-A594-C775F2A6D01F}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\pango\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\pango-1.0-0.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -39,3 +40,4 @@ Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\pangofc.pc"; DestDir: "{app}
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\pangoft2.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\pangoot.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\pangowin32.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\pango\COPYING"; DestDir: "{app}\share\doc\pango"; Flags: ignoreversion

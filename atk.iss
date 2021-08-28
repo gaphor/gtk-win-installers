@@ -11,6 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{9CAC95B2-B562-4B97-901E-0155DFD82531}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\atk\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\atk-1.0-0.dll"; DestDir: "{app}\bin"; Flags: ignoreversion

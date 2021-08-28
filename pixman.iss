@@ -11,8 +11,10 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{C9762882-9322-4CF9-B97C-BAACECE5202B}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\pixman\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman-version.h"; DestDir: "{app}\include\pixman-1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman.h"; DestDir: "{app}\include\pixman-1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pixman-1.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\pixman\COPYING"; DestDir: "{app}\share\doc\pixman"; Flags: ignoreversion

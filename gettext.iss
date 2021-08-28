@@ -11,6 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{B4572282-527A-4105-8FB3-4A56C2DA7CF4}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\gettext\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\asprintf.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -62,3 +63,4 @@ Source: "C:\gtk-build\gtk\x64\release\include\gettext-po.h"; DestDir: "{app}\inc
 Source: "C:\gtk-build\gtk\x64\release\lib\asprintf.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\gettextpo.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\aclocal\glib-gettext.m4"; DestDir: "{app}\share\aclocal"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\gettext\COPYING"; DestDir: "{app}\share\doc\gettext"; Flags: ignoreversion

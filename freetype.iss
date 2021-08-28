@@ -12,6 +12,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{54829005-A109-4EDB-B295-1D5C952DB127}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\freetype\LICENSE.TXT
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\freetype-6.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -21,3 +22,4 @@ Source: "C:\gtk-build\gtk\x64\release\include\freetype2\freetype\freetype.h"; De
 Source: "C:\gtk-build\gtk\x64\release\lib\freetype.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\libfreetype.a"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\freetype2.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\freetype\LICENSE.TXT"; DestDir: "{app}\share\doc\freetype"; Flags: ignoreversion

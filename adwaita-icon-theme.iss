@@ -12,8 +12,10 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{88549D55-900A-4FEA-9866-EE8BA80BF871}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\adwaita-icon-theme\COPYING_CCBYSA3
 
 [Files]
+Source: "C:\gtk-build\gtk\x64\release\share\doc\adwaita-icon-theme\COPYING_CCBYSA3"; DestDir: "{app}\share\doc\adwaita-icon-theme"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\icons\Adwaita\*"; DestDir: "{app}\share\icons\Adwaita"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 

@@ -12,6 +12,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{D0F3CE47-6D35-4DDA-A48D-910909B60A94}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\glib\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\gdbus-codegen"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -63,6 +64,7 @@ Source: "C:\gtk-build\gtk\x64\release\share\bash-completion\completions\gdbus"; 
 Source: "C:\gtk-build\gtk\x64\release\share\bash-completion\completions\gio"; DestDir: "{app}\share\bash-completion\completions"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\bash-completion\completions\gresource"; DestDir: "{app}\share\bash-completion\completions"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\bash-completion\completions\gsettings"; DestDir: "{app}\share\bash-completion\completions"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\glib\COPYING"; DestDir: "{app}\share\doc\glib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\gettext\its\gschema.its"; DestDir: "{app}\share\gettext\its"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\gettext\its\gschema.loc"; DestDir: "{app}\share\gettext\its"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\gettext\its\gsettings.its"; DestDir: "{app}\share\gettext\its"; Flags: ignoreversion

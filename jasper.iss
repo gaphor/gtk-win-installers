@@ -11,6 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{38D33DE4-B7BD-41A8-A764-A56053B23C71}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\JasPer\LICENSE
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\jasper.dll"; DestDir: "{app}\bin"; Flags: ignoreversion

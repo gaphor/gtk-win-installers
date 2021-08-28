@@ -3,7 +3,7 @@
 
 #define MyAppName "fontconfig"
 ; Latest is 2.13.94
-#define MyAppVersion "2.13.0-1"
+#define MyAppVersion "2.13.0"
 #define MyAppURL "https://www.freedesktop.org/wiki/Software/fontconfig/"
 
 #include "common.iss"
@@ -12,6 +12,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{1A15A912-8C27-43C5-BA97-5BEE2BD5B183}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\fontconfig\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\fc-cat.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -31,3 +32,4 @@ Source: "C:\gtk-build\gtk\x64\release\etc\fonts\fonts.dtd"; DestDir: "{app}\etc\
 Source: "C:\gtk-build\gtk\x64\release\include\fontconfig\fontconfig.h"; DestDir: "{app}\include\fontconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\fontconfig.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\fontconfig.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\fontconfig\COPYING"; DestDir: "{app}\share\doc\fontconfig"; Flags: ignoreversion

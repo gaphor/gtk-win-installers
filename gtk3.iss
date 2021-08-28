@@ -12,6 +12,7 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{0E1BF092-AC41-4216-B2CE-90C550D053CF}
+LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\gtk3\COPYING
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-3-vs16.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -39,6 +40,7 @@ Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gdk-win32-3.0.pc"; DestDir: 
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gtk+-3.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gtk+-win32-3.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\aclocal\gtk-3.0.m4"; DestDir: "{app}\share\aclocal"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\gtk3\COPYING"; DestDir: "{app}\share\doc\gtk3"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\gettext\its\gtkbuilder.its"; DestDir: "{app}\share\gettext\its"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\gettext\its\gtkbuilder.loc"; DestDir: "{app}\share\gettext\its"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\glib-2.0\schemas\org.gtk.Settings.ColorChooser.gschema.xml"; DestDir: "{app}\share\glib-2.0\schemas"; Flags: ignoreversion
@@ -278,7 +280,6 @@ Source: "C:\gtk-build\gtk\x64\release\share\locale\zh_HK\LC_MESSAGES\gtk30-prope
 Source: "C:\gtk-build\gtk\x64\release\share\locale\zh_HK\LC_MESSAGES\gtk30.mo"; DestDir: "{app}\share\locale\zh_HK\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\zh_TW\LC_MESSAGES\gtk30-properties.mo"; DestDir: "{app}\share\locale\zh_TW\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\zh_TW\LC_MESSAGES\gtk30.mo"; DestDir: "{app}\share\locale\zh_TW\LC_MESSAGES"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\themes\Default\gtk-3.0\gtk-keys.css"; DestDir: "{app}\share\themes\Default\gtk"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\themes\Emacs\gtk-3.0\gtk-keys.css"; DestDir: "{app}\share\themes\Emacs\gtk"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\themes\Default\gtk-3.0\gtk-keys.css"; DestDir: "{app}\share\themes\Default\gtk-3.0"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\themes\Emacs\gtk-3.0\gtk-keys.css"; DestDir: "{app}\share\themes\Emacs\gtk-3.0"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
-
