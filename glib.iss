@@ -88,7 +88,7 @@ Source: "C:\gtk-build\gtk\x64\release\share\locale\da\LC_MESSAGES\glib20.mo"; De
 Source: "C:\gtk-build\gtk\x64\release\share\locale\de\LC_MESSAGES\glib20.mo"; DestDir: "{app}\share\locale\de\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\dz\LC_MESSAGES\glib20.mo"; DestDir: "{app}\share\locale\dz\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\el\LC_MESSAGES\glib20.mo"; DestDir: "{app}\share\locale\el\LC_MESSAGES"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\locale\en@shaw\LC_MESSAGES\glib20.mo"; DestDir: "{app}\share\locale\en@shaw"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\locale\en@shaw\LC_MESSAGES\glib20.mo"; DestDir: "{app}\share\locale\en@shaw\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\en_CA\LC_MESSAGES\glib20.mo"; DestDir: "{app}\share\locale\en_CA\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\en_GB\LC_MESSAGES\glib20.mo"; DestDir: "{app}\share\locale\en_GB\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\eo\LC_MESSAGES\glib20.mo"; DestDir: "{app}\share\locale\eo\LC_MESSAGES"; Flags: ignoreversion

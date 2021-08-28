@@ -14,5 +14,5 @@ AppId={{C9762882-9322-4CF9-B97C-BAACECE5202B}
 
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman-version.h"; DestDir: "{app}\include\pixman-1"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman.h"; DestDir: "{app}\nclude\pixman-1"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman.h"; DestDir: "{app}\include\pixman-1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pixman-1.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
