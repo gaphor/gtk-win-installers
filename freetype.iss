@@ -18,7 +18,7 @@ LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\freetype\LICENSE.TXT
 Source: "C:\gtk-build\gtk\x64\release\bin\freetype-6.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\freetype-6.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\fontconfig\fcfreetype.h"; DestDir: "{app}\include\fontconfig"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\include\freetype2\freetype\freetype.h"; DestDir: "{app}\include\freetype2\freetype"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\freetype2\freetype\*"; DestDir: "{app}\include\freetype2\freetype"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\lib\freetype.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\libfreetype.a"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\freetype2.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
