@@ -24,3 +24,5 @@ Source: "C:\gtk-build\gtk\x64\release\lib\libpng\*"; DestDir: "{app}\lib\libpng"
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng16.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\doc\libpng\LICENSE"; DestDir: "{app}\share\doc\libpng"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man3\libpng.3"; DestDir: "{app}\share\man\man3"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man3\libpngpf.3"; DestDir: "{app}\share\man\man3"; Flags: ignoreversion
