@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "python-gobject"
-#define MyAppVersion "3.40.1-1"
+#define MyAppVersion "3.42.0-1"
 #define MyAppURL "https://wiki.gnome.org/Projects/PyGObject"
 
 #include "common.iss"
@@ -16,6 +16,6 @@ LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\pygobject\COPYING
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\include\pygobject-3.0\pygobject.h"; DestDir: "{app}\include\pygobject-3.0"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\pygobject-3.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\python\PyGObject-3.40.1-cp39-cp39-win_amd64.whl"; DestDir: "{app}\python"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\python\PyGObject-3.40.1-py3.9-win-amd64.egg"; DestDir: "{app}\python"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\python\PyGObject-3.42.0-cp310-cp310-win_amd64.whl"; DestDir: "{app}\python"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\python\PyGObject-3.42.0-py3.10-win-amd64.egg"; DestDir: "{app}\python"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\doc\pygobject\COPYING"; DestDir: "{app}\share\doc\pygobject"; Flags: ignoreversion
