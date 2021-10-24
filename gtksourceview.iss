@@ -17,6 +17,7 @@ LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\gtksourceview\COPYING
 Source: "C:\gtk-build\gtk\x64\release\bin\gtksourceview-4-0.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gtksourceview-4-0.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\gtksourceview-4\gtksourceview\*"; DestDir: "{app}\include\gtksourceview-4\gtksourceview"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\share\gtksourceview-4\*"; DestDir: "{app}\share\gtksourceview-4"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\lib\gtksourceview-4.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gtksourceview-4.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\doc\gtksourceview\COPYING"; DestDir: "{app}\share\doc\gtksourceview"; Flags: ignoreversion
@@ -64,6 +65,7 @@ Source: "C:\gtk-build\gtk\x64\release\share\locale\ko\LC_MESSAGES\gtksourceview-
 Source: "C:\gtk-build\gtk\x64\release\share\locale\lt\LC_MESSAGES\gtksourceview-4.mo"; DestDir: "{app}\share\locale\lt\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\lv\LC_MESSAGES\gtksourceview-4.mo"; DestDir: "{app}\share\locale\lv\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\mai\LC_MESSAGES\gtksourceview-4.mo"; DestDir: "{app}\share\locale\mai\LC_MESSAGES"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\locale\mg\LC_MESSAGES\gtksourceview-4.mo"; DestDir: "{app}\share\locale\mg\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\mk\LC_MESSAGES\gtksourceview-4.mo"; DestDir: "{app}\share\locale\mk\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\ml\LC_MESSAGES\gtksourceview-4.mo"; DestDir: "{app}\share\locale\ml\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\mn\LC_MESSAGES\gtksourceview-4.mo"; DestDir: "{app}\share\locale\mn\LC_MESSAGES"; Flags: ignoreversion

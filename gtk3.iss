@@ -17,6 +17,10 @@ LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\gtk3\COPYING
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-3-vs16.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-3-vs16.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gailutil-3-vs16.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gailutil-3-vs16.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gdk-3-vs16.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gdk-3-vs16.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-builder-tool.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-builder-tool.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-encode-symbolic-svg.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -29,10 +33,16 @@ Source: "C:\gtk-build\gtk\x64\release\bin\gtk-query-settings.exe"; DestDir: "{ap
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-query-settings.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-update-icon-cache.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gtk-update-icon-cache.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\etc\gtk-3.0\im-multipress.conf"; DestDir: "{app}\etc\gtk-3.0"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\gail-3.0\*"; DestDir: "{app}\include\gail-3.0"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\include\gtk-3.0\*"; DestDir: "{app}\include\gtk-3.0"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\lib\gailutil-3.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\gailutil-3.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\gtk-3.0\*"; DestDir: "{app}\lib\gtk-3.0"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\lib\gtk-3.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\gtk-3.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\gdk-3.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\gdk-3.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gail-3.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gdk-3.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gdk-pixbuf-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
@@ -47,7 +57,7 @@ Source: "C:\gtk-build\gtk\x64\release\share\glib-2.0\schemas\org.gtk.Settings.Co
 Source: "C:\gtk-build\gtk\x64\release\share\glib-2.0\schemas\org.gtk.Settings.Debug.gschema.xml"; DestDir: "{app}\share\glib-2.0\schemas"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\glib-2.0\schemas\org.gtk.Settings.EmojiChooser.gschema.xml"; DestDir: "{app}\share\glib-2.0\schemas"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\glib-2.0\schemas\org.gtk.Settings.FileChooser.gschema.xml"; DestDir: "{app}\share\glib-2.0\schemas"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\gtk-3.0\gtkbuilder.rng"; DestDir: "{app}\share\gtk-3.0"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\gtk-3.0\*"; DestDir: "{app}\share\gtk-3.0"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\share\locale\af\LC_MESSAGES\gtk30-properties.mo"; DestDir: "{app}\share\locale\af\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\af\LC_MESSAGES\gtk30.mo"; DestDir: "{app}\share\locale\af\LC_MESSAGES"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\locale\am\LC_MESSAGES\gtk30-properties.mo"; DestDir: "{app}\share\locale\am\LC_MESSAGES"; Flags: ignoreversion

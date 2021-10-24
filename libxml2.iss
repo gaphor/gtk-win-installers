@@ -20,3 +20,4 @@ Source: "C:\gtk-build\gtk\x64\release\bin\libxml2.pdb"; DestDir: "{app}\bin"; Fl
 Source: "C:\gtk-build\gtk\x64\release\include\libxml2\*"; DestDir: "{app}\include\libxml2"; Flags: ignoreversion createallsubdirs recursesubdirs
 Source: "C:\gtk-build\gtk\x64\release\lib\libxml2.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libxml-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\libxml2\COPYING"; DestDir: "{app}\share\doc\libxml2"; Flags: ignoreversion

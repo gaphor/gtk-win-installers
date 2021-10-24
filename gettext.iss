@@ -16,6 +16,8 @@ LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\gettext\COPYING
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\asprintf.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\asprintf.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\envsubst.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\envsubst.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gettext.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gettext.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gettextlib.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -24,6 +26,8 @@ Source: "C:\gtk-build\gtk\x64\release\bin\gettextpo.dll"; DestDir: "{app}\bin"; 
 Source: "C:\gtk-build\gtk\x64\release\bin\gettextpo.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gettextsrc.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gettextsrc.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\intl.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\intl.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\msgattrib.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\msgattrib.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\msgcat.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
@@ -60,7 +64,9 @@ Source: "C:\gtk-build\gtk\x64\release\bin\xgettext.exe"; DestDir: "{app}\bin"; F
 Source: "C:\gtk-build\gtk\x64\release\bin\xgettext.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\autosprintf.h"; DestDir: "{app}\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\gettext-po.h"; DestDir: "{app}\include"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\libintl.h"; DestDir: "{app}\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\asprintf.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\gettextpo.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\intl.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\aclocal\glib-gettext.m4"; DestDir: "{app}\share\aclocal"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\doc\gettext\COPYING"; DestDir: "{app}\share\doc\gettext"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\gettext\*"; DestDir: "{app}\share\gettext"; Flags: ignoreversion recursesubdirs createallsubdirs

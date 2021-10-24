@@ -37,4 +37,5 @@ Source: "C:\gtk-build\gtk\x64\release\share\gir-1.0\*"; DestDir: "{app}\share\gi
 Source: "C:\gtk-build\gtk\x64\release\share\man\man1\g-ir-compiler.1"; DestDir: "{app}\share\man\man1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\man\man1\g-ir-generate.1"; DestDir: "{app}\share\man\man1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\man\man1\g-ir-scanner.1"; DestDir: "{app}\share\man\man1"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man1\g-ir-doc-tool.1"; DestDir: "{app}\share\man\man1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\gobject-introspection-1.0\*"; DestDir: "{app}\share\gobject-introspection-1.0"; Flags: ignoreversion recursesubdirs createallsubdirs

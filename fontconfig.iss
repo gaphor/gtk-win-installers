@@ -29,6 +29,8 @@ Source: "C:\gtk-build\gtk\x64\release\bin\fontconfig.dll"; DestDir: "{app}\bin";
 Source: "C:\gtk-build\gtk\x64\release\bin\fontconfig.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\etc\fonts\fonts.conf"; DestDir: "{app}\etc\fonts"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\etc\fonts\fonts.dtd"; DestDir: "{app}\etc\fonts"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\fontconfig\fcfreetype.h"; DestDir: "{app}\include\fontconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\fontconfig\fcprivate.h"; DestDir: "{app}\include\fontconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\fontconfig\fontconfig.h"; DestDir: "{app}\include\fontconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\fontconfig.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\fontconfig.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion

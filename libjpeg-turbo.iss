@@ -20,11 +20,15 @@ Source: "C:\gtk-build\gtk\x64\release\bin\jpeg62.dll"; DestDir: "{app}\bin"; Fla
 Source: "C:\gtk-build\gtk\x64\release\bin\jpeg62.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\jpegtran.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\rdjpgcom.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\tjbench.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\turbojpeg.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\turbojpeg.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\wrjpgcom.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\jpeglib.h"; DestDir: "{app}\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\turbojpeg.h"; DestDir: "{app}\include"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\jconfig.h"; DestDir: "{app}\include"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\jerror.h"; DestDir: "{app}\include"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\jmorecfg.h"; DestDir: "{app}\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\jpeg-static.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\jpeg.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\turbojpeg-static.lib"; DestDir: "{app}\lib"; Flags: ignoreversion

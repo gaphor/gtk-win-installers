@@ -19,3 +19,4 @@ Source: "C:\gtk-build\gtk\x64\release\include\zconf.h"; DestDir: "{app}\include"
 Source: "C:\gtk-build\gtk\x64\release\include\zlib.h"; DestDir: "{app}\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\zlib.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\zlib1.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\zlib\README"; DestDir: "{app}\share\doc\zlib"; Flags: ignoreversion

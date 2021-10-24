@@ -16,8 +16,11 @@ LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\libpng\LICENSE
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\libpng16.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\png-fix-itxt.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\pngfix.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\libpng16\*"; DestDir: "{app}\include\libpng16"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\include\png.h"; DestDir: "{app}\include"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\pngconf.h"; DestDir: "{app}\include"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\pnglibconf.h"; DestDir: "{app}\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\libpng16.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\libpng16_static.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\libpng\*"; DestDir: "{app}\lib\libpng"; Flags: ignoreversion recursesubdirs createallsubdirs
@@ -26,3 +29,4 @@ Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libpng16.pc"; DestDir: "{app
 Source: "C:\gtk-build\gtk\x64\release\share\doc\libpng\LICENSE"; DestDir: "{app}\share\doc\libpng"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\man\man3\libpng.3"; DestDir: "{app}\share\man\man3"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\man\man3\libpngpf.3"; DestDir: "{app}\share\man\man3"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man5\png.5"; DestDir: "{app}\share\man\man5"; Flags: ignoreversion

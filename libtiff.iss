@@ -42,7 +42,7 @@ Source: "C:\gtk-build\gtk\x64\release\include\tiffio.hxx"; DestDir: "{app}\inclu
 Source: "C:\gtk-build\gtk\x64\release\include\tiffvers.h"; DestDir: "{app}\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libtiff-4.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\tiff.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\doc\tiff\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\share\doc\tiff\*"; DestDir: "{app}\share\doc\tiff"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\share\man\man1\fax2ps.1"; DestDir: "{app}\share\man\man1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\man\man1\fax2tiff.1"; DestDir: "{app}\share\man\man1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\man\man1\pal2rgb.1"; DestDir: "{app}\share\man\man1"; Flags: ignoreversion

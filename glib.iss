@@ -34,19 +34,27 @@ Source: "C:\gtk-build\gtk\x64\release\bin\glib-genmarshal"; DestDir: "{app}\bin"
 Source: "C:\gtk-build\gtk\x64\release\bin\glib-mkenums"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gmodule-2.0-0.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gmodule-2.0-0.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gobject-2.0-0.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gobject-2.0-0.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gobject-query.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gobject-query.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gresource.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gresource.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gsettings.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gsettings.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gspawn-win64-helper-console.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gspawn-win64-helper-console.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gspawn-win64-helper.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\gspawn-win64-helper.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gtester-report"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gthread-2.0-0.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\gthread-2.0-0.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\include\glib-2.0\*"; DestDir: "{app}\include\glib-2.0"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\include\gio-win32-2.0\*"; DestDir: "{app}\include\gio-win32-2.0"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\gtk-build\gtk\x64\release\lib\gio-2.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\glib-2.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\gmodule-2.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\gobject-2.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\gthread-2.0.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\glib-2.0\include\glibconfig.h"; DestDir: "{app}\lib\glib-2.0\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gio-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
@@ -56,6 +64,7 @@ Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gmodule-2.0.pc"; DestDir: "{
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gmodule-export-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gmodule-no-export-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gthread-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\gobject-2.0.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\aclocal\glib-2.0.m4"; DestDir: "{app}\share\aclocal"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\aclocal\glib-gettext.m4"; DestDir: "{app}\share\aclocal"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\aclocal\gsettings.m4"; DestDir: "{app}\share\aclocal"; Flags: ignoreversion

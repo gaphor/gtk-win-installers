@@ -19,9 +19,13 @@ Source: "C:\gtk-build\gtk\x64\release\bin\pkgconf-3.dll"; DestDir: "{app}\bin"; 
 Source: "C:\gtk-build\gtk\x64\release\bin\pkgconf-3.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\pkgconf.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\pkgconf.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\include\libpkgconf\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\gtk-build\gtk\x64\release\lib\pkgconf.lib"; DestDir: "{app}\bin"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\pkgconfig\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\gtk-build\gtk\x64\release\share\doc\pkgconf\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\gtk-build\gtk\x64\release\share\man\man1\pkgconf.1"; DestDir: "{app}\bin"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\man\man5\pkgconf-personality.5"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\bin\pkg-config.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\libpkgconf\*"; DestDir: "{app}\include\libpkgconf"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\lib\pkgconf.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\aclocal\pkg.m4"; DestDir: "{app}\share\aclocal"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\pkgconfig\*"; DestDir: "{app}\share\pkgconfig"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\share\doc\pkgconf\*"; DestDir: "{app}\share\doc\pkgconf"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\share\man\man1\pkgconf.1"; DestDir: "{app}\share\man\man1"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man5\pkgconf-personality.5"; DestDir: "{app}\share\man\man5"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man5\pc.5"; DestDir: "{app}\share\man\man5"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man7\pkg.m4.7"; DestDir: "{app}\share\man\man7"; Flags: ignoreversion

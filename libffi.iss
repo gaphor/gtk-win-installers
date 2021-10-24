@@ -23,8 +23,8 @@ Source: "C:\gtk-build\gtk\x64\release\include\ffitarget-x86_64.h"; DestDir: "{ap
 Source: "C:\gtk-build\gtk\x64\release\include\ffitarget.h"; DestDir: "{app}\include"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\ffi.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pkgconfig\libffi.pc"; DestDir: "{app}\lib\pkgconfig"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\doc\libffi\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\gtk-build\gtk\x64\release\share\man\man3\ffi.3"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\man\man3\ffi_call.3"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\man\man3\ffi_prep_cif.3"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\share\man\man3\ffi_prep_cif_var.3"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\doc\libffi\*"; DestDir: "{app}\share\doc\libffi"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\gtk-build\gtk\x64\release\share\man\man3\ffi.3"; DestDir: "{app}\share\man\man3"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man3\ffi_call.3"; DestDir: "{app}\share\man\man3"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man3\ffi_prep_cif.3"; DestDir: "{app}\share\man\man3"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\share\man\man3\ffi_prep_cif_var.3"; DestDir: "{app}\share\man\man3"; Flags: ignoreversion
