@@ -14,9 +14,6 @@
 AppId={{8E37F978-6CA9-44F9-AC30-E327012F3340}
 LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\pkgconf\COPYING
 
-[Languages]
-Name: "english"; MessagesFile: "compiler:Default.isl"
-
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\pkgconf-3.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\pkgconf-3.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion

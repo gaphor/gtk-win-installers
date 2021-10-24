@@ -14,9 +14,6 @@
 AppId={{E6F69825-BA2D-460D-B358-EAC76C6FCD25}
 LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\libffi\LICENSE
 
-[Languages]
-Name: "english"; MessagesFile: "compiler:Default.isl"
-
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\ffi-7.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\ffi-7.pdb"; DestDir: "{app}\bin"; Flags: ignoreversion

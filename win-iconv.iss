@@ -14,9 +14,6 @@
 AppId={{8B992482-3AA8-4C82-AC53-408B1131C6E3}
 LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\win-iconv\COPYING
 
-[Languages]
-Name: "english"; MessagesFile: "compiler:Default.isl"
-
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\iconv.dll"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\win_iconv.exe"; DestDir: "{app}\bin"; Flags: ignoreversion

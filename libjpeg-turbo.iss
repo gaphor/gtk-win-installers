@@ -13,9 +13,6 @@
 AppId={{25FE5F6C-A37B-4F8D-9DF5-96C52EFC775A}
 LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\libjpeg-turbo\LICENSE.md
 
-[Languages]
-Name: "english"; MessagesFile: "compiler:Default.isl"
-
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\cjpeg.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\djpeg.exe"; DestDir: "{app}\bin"; Flags: ignoreversion

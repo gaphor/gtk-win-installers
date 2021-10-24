@@ -14,9 +14,6 @@
 AppId={{C2F1D9DD-4C9E-4D80-BDD8-9CA5A8BA2768}
 LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\tiff\COPYRIGHT
 
-[Languages]
-Name: "english"; MessagesFile: "compiler:Default.isl"
-
 [Files]
 Source: "C:\gtk-build\gtk\x64\release\bin\fax2ps.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\bin\fax2tiff.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
