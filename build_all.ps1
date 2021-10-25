@@ -1,0 +1,1 @@
+Get-ChildItem .\*.iss -Exclude common.iss | Foreach-Object -process { Write-Output $_; & 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe' /Qp $_ }
