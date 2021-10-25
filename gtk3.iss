@@ -2,8 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "gtk3"
-; Latest is 3.24.30
-#define MyAppVersion "3.24.29-1"
+#define MyAppVersion "3.24.30-1"
 #define MyAppURL "https://gtk.org"
 
 #include "common.iss"
