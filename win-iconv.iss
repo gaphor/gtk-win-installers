@@ -2,7 +2,6 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "win-iconv"
-; libffi is on a branch of a fork of the main project
 #define MyAppVersion "0.0.8-1"
 #define MyAppURL "http://github.com/win-iconv/win-iconv"
 

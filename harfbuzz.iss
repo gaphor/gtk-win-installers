@@ -2,8 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "harfbuzz"
-; Latest is 2.9.0
-#define MyAppVersion "2.8.2-1"
+#define MyAppVersion "3.1.1-1"
 #define MyAppURL "https://www.freedesktop.org/wiki/Software/HarfBuzz"
 
 #include "common.iss"

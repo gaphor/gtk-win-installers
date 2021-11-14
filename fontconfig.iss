@@ -2,8 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "fontconfig"
-; Latest is 2.13.94
-#define MyAppVersion "2.13.0"
+#define MyAppVersion "2.13.94"
 #define MyAppURL "https://www.freedesktop.org/wiki/Software/fontconfig/"
 
 #include "common.iss"

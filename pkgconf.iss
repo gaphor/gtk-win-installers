@@ -2,8 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "pkgconf"
-; Latest version is 1.8.0
-#define MyAppVersion "1.5.4-1"
+#define MyAppVersion "1.8.0-1"
 #define MyAppURL "http://github.com/pkgconf/pkgconf"
 
 #include "common.iss"
