@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "gettext"
-#define MyAppVersion "0.19.7-1"
+#define MyAppVersion "0.19.7+1"
 #define MyAppURL ""
 
 #include "common.iss"

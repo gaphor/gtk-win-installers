@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "python-gobject"
-#define MyAppVersion "3.42.0-1"
+#define MyAppVersion "3.42.0+1"
 #define MyAppURL "https://wiki.gnome.org/Projects/PyGObject"
 
 #include "common.iss"

@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "atk"
-#define MyAppVersion "2.36.0-1"
+#define MyAppVersion "2.36.0+1"
 #define MyAppURL "https://gitlab.gnome.org/GNOME/atk"
 
 #include "common.iss"

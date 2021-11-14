@@ -3,7 +3,7 @@
 
 #define MyAppName "libffi"
 ; libffi is on a branch of a fork of the main project for meson support
-#define MyAppVersion "meson-1.14-1"
+#define MyAppVersion "meson-1.14+1"
 #define MyAppURL "http://sourceware.org/libffi/"
 
 #include "common.iss"

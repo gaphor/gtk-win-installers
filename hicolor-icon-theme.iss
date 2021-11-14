@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "hicolor-icon-theme"
-#define MyAppVersion "0.17-1"
+#define MyAppVersion "0.17+1"
 #define MyAppPublisher "Daniel Yeaw"
 #define MyAppURL "https://www.freedesktop.org/wiki/Software/icon-theme/"
 

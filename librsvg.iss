@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "librsvg"
-#define MyAppVersion "2.52.2-1"
+#define MyAppVersion "2.52.2+1"
 #define MyAppURL "https://wiki.gnome.org/Projects/LibRsvg"
 
 #include "common.iss"

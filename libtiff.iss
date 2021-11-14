@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "libtiff"
-#define MyAppVersion "4.3.0-1"
+#define MyAppVersion "4.3.0+1"
 #define MyAppURL "http://www.simplesystems.org/libtiff"
 
 #include "common.iss"

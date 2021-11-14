@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "win-iconv"
-#define MyAppVersion "0.0.8-1"
+#define MyAppVersion "0.0.8+1"
 #define MyAppURL "http://github.com/win-iconv/win-iconv"
 
 #include "common.iss"

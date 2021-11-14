@@ -3,7 +3,7 @@
 
 #define MyAppName "libepoxy"
 ; Latest is 1.5.9
-#define MyAppVersion "1.5.5-1"
+#define MyAppVersion "1.5.5+1"
 #define MyAppURL "https://github.com/anholt/libepoxy"
 
 #include "common.iss"

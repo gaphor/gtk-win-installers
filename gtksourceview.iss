@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "gtksourceview"
-#define MyAppVersion "4.8.2-1"
+#define MyAppVersion "4.8.2+1"
 #define MyAppURL "https://gitlab.gnome.org/GNOME/gtksourceview"
 
 #include "common.iss"

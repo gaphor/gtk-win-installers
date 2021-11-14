@@ -3,7 +3,7 @@
 
 #define MyAppName "freetype"
 ; Actual freetype version is currently with a git snapshot
-#define MyAppVersion "2.10.4-1"
+#define MyAppVersion "2.10.4+1"
 #define MyAppURL "https://www.freetype.org"
 
 #include "common.iss"

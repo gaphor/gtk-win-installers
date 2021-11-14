@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "libxml2"
-#define MyAppVersion "2.9.12-1"
+#define MyAppVersion "2.9.12+1"
 #define MyAppURL "https://xmlsoft.org"
 
 

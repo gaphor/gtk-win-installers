@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "pixman"
-#define MyAppVersion "0.40.0-1"
+#define MyAppVersion "0.40.0+1"
 #define MyAppURL "https://cgit.freedesktop.org/pixman"
 
 #include "common.iss"
@@ -14,7 +14,7 @@ AppId={{C9762882-9322-4CF9-B97C-BAACECE5202B}
 LicenseFile=C:\gtk-build\gtk\x64\release\share\doc\pixman\COPYING
 
 [Files]
-Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman-version.h"; DestDir: "{app}\include\pixman-1"; Flags: ignoreversion
-Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman.h"; DestDir: "{app}\include\pixman-1"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman-version.h"; DestDir: "{app}\include\pixman+1"; Flags: ignoreversion
+Source: "C:\gtk-build\gtk\x64\release\include\pixman-1\pixman.h"; DestDir: "{app}\include\pixman+1"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\lib\pixman-1.lib"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "C:\gtk-build\gtk\x64\release\share\doc\pixman\COPYING"; DestDir: "{app}\share\doc\pixman"; Flags: ignoreversion

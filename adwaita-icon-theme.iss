@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "adwaita-icon-theme"
-#define MyAppVersion "40.1.1-1"
+#define MyAppVersion "40.1.1+1"
 #define MyAppPublisher "Daniel Yeaw"
 #define MyAppURL "https://gitlab.gnome.org/GNOME/adwaita-icon-theme"
 
